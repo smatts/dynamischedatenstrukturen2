@@ -1,21 +1,20 @@
----
-name: "My OER Course"
+'@context': schema.org
+creativeWorkStatus: Published
+type: LearningResource
+name: Dynamische Datenstrukturen
+description: ''
+license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+id: https://smatts.github.io/dynamischedatenstrukturen2/
 creator:
-  - givenName: "Max"
-    familyName: "Mustermann"
-  - givenName: "Maxi"
-    familyName: "Mustermann"
-publisher:
-  givenName: "Max"
-  familyName: "Mustermann"
-keywords:
-  - "Geometry"
-  - "Pythagoras"
-  - "Mathematics"
-description: "Draft for a course"
-inLanguage: "en"
-version: 1.0
-license: "https://creativecommons.org/publicdomain/zero/1.0/"
-thumbnailUrl: http://placehold.it/100x100
-learningResourceType: "Course"
-creativeWorkStatus: "Draft" # Incomplete, Draft, Published
+  - givenName: Lennart
+    familyName: Rosseburg
+    type: Person
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+learningResourceType:
+  - https://w3id.org/kim/hcrt/course
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2023-12-13'
